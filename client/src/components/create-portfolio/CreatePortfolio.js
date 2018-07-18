@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import TextFieldGroup from "../common/TextFieldGroup";
-import TextAreaFieldGroup from "../common/TextAreaFieldGroup";
+//import TextAreaFieldGroup from "../common/TextAreaFieldGroup";
 import { createPortfolio } from "../../actions/portfolioActions";
 
 class CreatePortfolio extends Component {

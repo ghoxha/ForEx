@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 const alpha = require("alphavantage")({ key: "L4JLBZCFQ4OVF2W5" });
 //created a constructor to keep track of changes
@@ -27,8 +27,9 @@ class Currency extends Component {
   }
   handleConvert(e) {
     alpha.forex.rate(this.state.turnFrom, this.state.turnInto).then(data => {
-      let xRate = data["Realtime Currency Exchange Rate"]["5. Exchange Rate"];
-      let changeAmount = this.state.turnAmount * xRate;
+      //let xRate = data["Realtime Currency Exchange Rate"]["5. Exchange Rate"];
+      /*Commented out to avoid warinings 
+      let changeAmount = this.state.turnAmount * xRate; */
       /*Will need to implement an API call to subtract this amount from the current currency, and add it into the new currency based on current conversion rates. These would need to be changed via calls to mongodb through mongoose, and changing the appropriate fields based on ID. Need to take into account negative balances, add crypto capabilities, and stock options. Due to alphavantage's extensibility, these can be completed very quickly. */
     });
   }

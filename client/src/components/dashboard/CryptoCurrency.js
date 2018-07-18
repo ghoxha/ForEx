@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
-const alpha = require("alphavantage")({ key: "L4JLBZCFQ4OVF2W5" });
+//const alpha = require("alphavantage")({ key: "L4JLBZCFQ4OVF2W5" });
 //created a constructor to keep track of changes
 class Currency extends Component {
   constructor() {
