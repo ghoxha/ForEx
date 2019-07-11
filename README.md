@@ -1,13 +1,13 @@
 # Bootstraped React Website W/ Mongo DB
-
+This is a simple money management tool to experiment with React. You only need to initialize a mongoDB instance and you're good to go.
 ## Installation
-In the ForEx folder, you will first need to run 
+In the ForEx folder, you will first need to run
 
 ```bash
-npm install 
+npm install
 ```
 
-Then after installation has finished, you will need to run 
+Then after installation has finished, you will need to run
 
 ```bash
 npm run client-install
