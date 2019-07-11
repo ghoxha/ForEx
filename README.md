@@ -1,5 +1,4 @@
-INSTALLATION
-
+# Bootstraped React Website W/ Mongo DB
 In the ForEx folder, you will first need to run 
 
 npm install 
@@ -43,10 +42,6 @@ I utilized a few reducers, for authentication, errors, and my portfolios.
 
 Once you have reached the dashboard, you can see the three options for currency, cryptocurrency, and stock. Clicking on them will open up a form that a user can fill out, to enter what they have and how much of it. These will be bounced back to the MongoDB server where the portfolios are stored. 
 
-Under this is the current currency rate. I utilized the Alpha Vantage API to run calculations for current currency rates for the 4 biggest currencies. More currencies can easily be added.
+Under this is the current currency rate. I utilized the Alpha Vantage API to run calculations for current currency rates for the 4 biggest currencies. More currencies can easily be added
 
 I have not been able to complete the conversion of money from one currency type to another. Inside the Currency.js file, I laid out the plan of what I would do to complete it. To summarize it, I would need to implement the addition and subtraction of wealth, add the crypto and stock options by utilizing alpha vantage's api, and some more bug testing. 
-
-
-
-
