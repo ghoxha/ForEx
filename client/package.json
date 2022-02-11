@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/jwt-decode": "^2.2.1",
-    "ajv": "^6.5.2",
+    "ajv": "^6.12.3",
     "alphavantage": "^1.1.1",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
